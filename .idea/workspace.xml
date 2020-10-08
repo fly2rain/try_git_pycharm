@@ -19,14 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/new_branch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main_2" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="342064af-5e05-485a-a996-42dd8158deff" name="Default Changelist" comment="try git 3" />
+    <list default="true" id="342064af-5e05-485a-a996-42dd8158deff" name="Default Changelist" comment="try git 4">
+      <change afterPath="$PROJECT_DIR$/try3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="new_branch" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -48,7 +52,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="new_branch" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,12 +67,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1602176123" />
+                    <option name="branchName" value="main_2" />
+                    <option name="lastUsedInstant" value="1602176921" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="new_branch" />
-                    <option name="lastUsedInstant" value="1602176118" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1602176918" />
                   </RecentBranch>
                 </list>
               </option>
@@ -131,7 +135,7 @@
       <workItem from="1602174738617" duration="1280000" />
       <workItem from="1602176033537" duration="51000" />
       <workItem from="1602176096582" duration="79000" />
-      <workItem from="1602176190518" duration="407000" />
+      <workItem from="1602176190518" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="try git">
       <created>1602174822198</created>
@@ -182,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602176384828</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="try git 4">
+      <created>1602176828960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602176828960</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +210,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/new_branch" />
+                        <option value="main_2" />
                       </list>
                     </value>
                   </entry>
@@ -216,7 +227,8 @@
     <MESSAGE value="try git" />
     <MESSAGE value="try git 2" />
     <MESSAGE value="try git 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="try git 3" />
+    <MESSAGE value="try git 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="try git 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2501" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602175398197">
@@ -227,14 +239,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2689" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602175739299" />
+    <state x="2128" y="110" width="1536" height="901" key="MergeDialog" timestamp="1602176623482">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2128" y="110" width="1536" height="901" key="MergeDialog/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176623482" />
+    <state x="2537" y="316" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1602176623486">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2537" y="316" width="728" height="482" key="MultipleFileMergeDialog/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176623486" />
     <state x="2395" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1602175662332">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2395" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602175662332" />
-    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1602176520566">
+    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1602176831077">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176520566" />
+    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176831077" />
     <state x="2072" y="127" width="1668" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602176012121">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
