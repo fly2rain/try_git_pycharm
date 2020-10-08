@@ -6,15 +6,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -27,6 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="342064af-5e05-485a-a996-42dd8158deff" name="Default Changelist" comment="try git 4">
       <change afterPath="$PROJECT_DIR$/try3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try.py" beforeDir="false" afterPath="$PROJECT_DIR$/try.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +60,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main_2" />
-                    <option name="lastUsedInstant" value="1602176921" />
+                    <option name="lastUsedInstant" value="1602178623" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1602176918" />
+                    <option name="lastUsedInstant" value="1602178615" />
                   </RecentBranch>
                 </list>
               </option>
@@ -193,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602176828960</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="try git after merge">
+      <created>1602178565674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602178565674</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +227,8 @@
     <MESSAGE value="try git 2" />
     <MESSAGE value="try git 3" />
     <MESSAGE value="try git 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="try git 4" />
+    <MESSAGE value="try git after merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="try git after merge" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2501" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602175398197">
@@ -251,10 +251,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2395" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602175662332" />
-    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1602176831077">
+    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1602178568672">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176831077" />
+    <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602178568672" />
     <state x="2072" y="127" width="1668" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602176012121">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
