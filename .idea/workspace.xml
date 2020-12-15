@@ -17,6 +17,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="342064af-5e05-485a-a996-42dd8158deff" name="Default Changelist" comment="try git for main_2 123">
+      <change afterPath="$PROJECT_DIR$/Flask/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/try_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_pathlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_pathlib/try_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_pathlib/try_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/1_count_unit_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/try_git_pycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/try_git_pycharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +85,7 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="JupyterTrust" id="b6c683aa-3f55-4478-bf7c-b484317d5bb4" />
+  <component name="JupyterTrust" id="791d0a43-6284-4fbb-b445-c72fbd33b5c8" />
   <component name="ProjectId" id="1ibSKveXgz99TsnnCdPDIZanA9X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -89,9 +100,88 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests in pytest_test.py">
+    <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug" nameIsGenerated="true">
+      <module name="try_git_pycharm" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="localhost" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_count_unit_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="try_git_pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/1_count_unit_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_py_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="try_git_pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/2_py_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_test_string_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="try_git_pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/3_test_string_methods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="try_git_pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +204,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in pytest_test.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="try_git_pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/iras/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest/pytest_test/pytest_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.1_count_unit_test" />
+      <item itemvalue="Python.2_py_test" />
+      <item itemvalue="Python.3_test_string_methods" />
+      <item itemvalue="Python Debug Server.Unnamed" />
+      <item itemvalue="Python tests.Unittests in pytest_test.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1_count_unit_test" />
+        <item itemvalue="Python.3_test_string_methods" />
+        <item itemvalue="Python.2_py_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,6 +247,12 @@
       <workItem from="1602176033537" duration="51000" />
       <workItem from="1602176096582" duration="79000" />
       <workItem from="1602176190518" duration="751000" />
+      <workItem from="1604088848693" duration="3124000" />
+      <workItem from="1604696012661" duration="14289000" />
+      <workItem from="1605026599648" duration="5181000" />
+      <workItem from="1605301699204" duration="7432000" />
+      <workItem from="1606229016703" duration="248000" />
+      <workItem from="1607616499117" duration="2556000" />
     </task>
     <task id="LOCAL-00001" summary="try git">
       <created>1602174822198</created>
@@ -222,14 +348,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="try git 4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2501" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602175398197">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="408" y="-865" width="1198" height="800" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604768626425">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="408" y="-865" width="1198" height="800" key="#com.intellij.execution.impl.EditConfigurationsDialog/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1604768626425" />
     <state x="2501" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602175398197" />
+    <state x="369" y="-747" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605301910902">
+      <screen x="-184" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="369" y="-747" key="#com.intellij.fileTypes.FileTypeChooser/-2104.-1080.1920.1080/-184.-1080.1920.1080/1736.-1080.1920.1080/0.0.1680.1050@-184.-1080.1920.1080" timestamp="1605301910902" />
     <state x="2689" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602175739299">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2689" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602175739299" />
+    <state width="1865" height="292" key="GridCell.Tab.0.bottom" timestamp="1605026284463">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="292" key="GridCell.Tab.0.bottom/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1605026284463" />
+    <state width="1865" height="292" key="GridCell.Tab.0.center" timestamp="1605026284461">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="292" key="GridCell.Tab.0.center/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1605026284461" />
+    <state width="1865" height="292" key="GridCell.Tab.0.left" timestamp="1605026284460">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="292" key="GridCell.Tab.0.left/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1605026284460" />
+    <state width="1865" height="292" key="GridCell.Tab.0.right" timestamp="1605026284462">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="292" key="GridCell.Tab.0.right/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1605026284462" />
     <state x="2128" y="110" width="1536" height="901" key="MergeDialog" timestamp="1602176623482">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -238,9 +385,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2537" y="316" width="728" height="482" key="MultipleFileMergeDialog/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176623486" />
-    <state x="2395" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1602175662332">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="302" y="-917" width="1125" height="897" key="SettingsEditor" timestamp="1604766835547">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="302" y="-897" width="1125" height="897" key="SettingsEditor/-173.-1057.1920.1057/-2093.-1057.1920.1057/1747.-1057.1920.1057/47.23.1633.1027@-173.-1057.1920.1057" timestamp="1604089804950" />
+    <state x="302" y="-917" key="SettingsEditor/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1604766835547" />
     <state x="2395" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602175662332" />
     <state x="2501" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1602176831077">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -250,5 +399,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2072" y="127" width="1668" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602176012121" />
+    <state x="368" y="-1032" width="838" height="1032" key="search.everywhere.popup" timestamp="1605029165468">
+      <screen x="-173" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="368" y="-1032" width="838" height="1032" key="search.everywhere.popup/-173.-1080.1920.1080/-2093.-1080.1920.1080/1747.-1080.1920.1080/0.0.1680.1050@-173.-1080.1920.1080" timestamp="1605029165468" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/try_git_pycharm$Unittests_in_pytest_test_py.coverage" NAME="Unittests in pytest_test.py Coverage Results" MODIFIED="1604768879768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/try_git_pycharm$Unittests_in_4_pytest_test_py.coverage" NAME="Unittests in 4_pytest_test.py Coverage Results" MODIFIED="1604768464092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
