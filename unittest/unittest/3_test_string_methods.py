@@ -1,11 +1,14 @@
 # cd. https://docs.python.org/2/library/unittest.html
 
-import unittest2
+import unittest2 as unittest
 
 
-class TestStringMethods(unittest2.TestCase):
+class TestStringMethods(unittest.TestCase):
     def setUp(self):
         print("Start test")
+
+    def tearDown(self):
+        print("  - Tear Down")
 
     def test_upper(self):
         self.assertEqual("foo".upper(), "FOO")
@@ -23,6 +26,6 @@ class TestStringMethods(unittest2.TestCase):
 
 
 if __name__ == "__main__":
-    # unittest2.main()
-    x = round(1e-9 - 1e-10, 7)
-    print(x)
+    unittest.main()
+    # x = round(1e-9 - 1e-10, 7)
+    # print(x)

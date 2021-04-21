@@ -22,9 +22,11 @@ class Count:
         return self.a / self.b
 
 
-#### Unit Test Cases ------
-import unittest2
-class TestCount(unittest2.TestCase):
+#### Unit Test Cases ----------------------------------
+import unittest2 as unittest
+# import unittest
+
+class TestCount(unittest.TestCase):
     # 测试的初始化
     def setUp(self):
         print("test start")
@@ -56,12 +58,12 @@ class TestCount(unittest2.TestCase):
 
 if __name__ == "__main__":
     # 构造测试集
-    suite = unittest2.TestSuite()
+    suite = unittest.TestSuite()
     suite.addTest(TestCount("test_add"))
     suite.addTest(TestCount("test_sub"))
     suite.addTest(TestCount("test_mul"))
     suite.addTest(TestCount("test_div"))
 
     # 测试
-    runner = unittest2.TextTestRunner()
+    runner = unittest.TextTestRunner()
     runner.run(suite)
